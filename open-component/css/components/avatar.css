@@ -1,0 +1,24 @@
+.avatar{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.avatar img{
+  height: 40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+
+
+
+.avatar>div>h2{
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.avatar>div>p{
+  font-size: 12px;
+  font-weight: lighter;
+}

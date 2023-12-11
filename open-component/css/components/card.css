@@ -1,0 +1,46 @@
+
+
+
+.card{
+  background-color: white;
+  padding: 10px;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card-img{
+  background-image: url('../../images/stephanie-harvey-f7PfM2NklZ4-unsplash.jpg');
+  width:200px;
+  height:200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-info{
+  display :flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap:10;
+}
+
+.card-info-text h2{
+  font-size: 14px;
+}
+
+.card-info-text p{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.card-info-text ul li{
+  display: inline;
+}
+
+.text-blue{
+  font-weight: bolder;
+  color:rgb(49, 70, 255);
+}
